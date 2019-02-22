@@ -1,0 +1,5 @@
+n = int(raw_input())
+run=0
+while run<n:
+    print (run**2)
+    run+=1
