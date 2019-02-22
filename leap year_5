@@ -1,9 +1,10 @@
 def is_leap(year):
-    leap = False  
+    leap = False
+    le = True
     # Write your logic here
-    if year %2==0:
-        if year%100 and year%400:
-              return leap
-
+    if year %4==0:
+        if year%100!=0 or year%400==0:
+            return le
+    return leap
 year = int(raw_input())
 print is_leap(year)
