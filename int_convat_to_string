@@ -1,0 +1,10 @@
+from __future__ import print_function
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    sum=""
+    a=1
+    while a <= n:
+        sum=sum+str(a)
+        a+=1
+    print(sum)
